@@ -1,0 +1,85 @@
+{
+  "name": "portfolio-3d",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "analyze": "ANALYZE=true next build",
+    "build:analyze": "npm run analyze",
+    "performance": "lighthouse http://localhost:3000 --output=html --output-path=./lighthouse-report.html --chrome-flags='--headless --disable-gpu --no-sandbox'",
+    "bundle:analyze": "npm run build && npx webpack-bundle-analyzer .next/static/chunks/*.js",
+    "optimize": "npm run build && npm run performance",
+    "test:performance": "node scripts/test-performance.js",
+    "test:lighthouse": "npm run performance",
+    "test:bundle": "npm run bundle:analyze",
+    "test:all": "npm run test:performance && npm run test:lighthouse && npm run test:bundle",
+    "preview": "npm run build && npm run start",
+    "clean": "rm -rf .next out dist",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@headlessui/react": "^2.2.7",
+    "@react-three/drei": "^10.7.4",
+    "@react-three/fiber": "^9.3.0",
+    "@react-three/postprocessing": "^3.0.4",
+    "@types/three": "^0.179.0",
+    "framer-motion": "^12.23.12",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.541.0",
+    "next": "^15.5.15",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "lighthouse": "^12.0.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5",
+    "webpack-bundle-analyzer": "^4.10.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ie_mob 11"
+  ],
+  "prettier": {
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 80,
+    "tabWidth": 2
+  },
+  "eslintConfig": {
+    "extends": [
+      "next/core-web-vitals",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  }
+}
