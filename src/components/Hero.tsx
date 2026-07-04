@@ -67,31 +67,28 @@ const Hero = () => {
   }, []);
 
   const scrollToAbout = useCallback(() => {
-    document.getElementById('about')?.scrollIntoView({ 
+    document.getElementById('about')?.scrollIntoView({
       behavior: 'smooth',
       block: 'start'
     });
   }, []);
 
   // CV Download function
- const downloadCV = useCallback(() => {
-  const fileId = '1yd7qcQwBT1nrrepJftj_eEH479bjJ6hR';
+  const downloadCV = useCallback(() => {
+    const fileId = '1Kti60cOavQioMrFMvtGkMfSUGh63jkZc';
+    const link = document.createElement('a');
+    link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    link.download = 'Farhan_Sadik_Turjo_CV.pdf';
 
-  const directDownloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-
-  const link = document.createElement('a');
-  link.href = directDownloadUrl;
-  link.download = 'Farhan_Sadik_Turjo_CV.pdf';
-
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}, []);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }, []);
 
   // Memoized and reduced grid lines
   const gridLines = useMemo(() => {
     if (!isVisible) return null;
-    
+
     return (
       <>
         {[...Array(8)].map((_, i) => (
@@ -143,7 +140,7 @@ const Hero = () => {
   // Further reduced floating elements
   const floatingElements = useMemo(() => {
     if (!isVisible) return null;
-    
+
     return (
       <>
         {[...Array(3)].map((_, i) => (
@@ -196,7 +193,7 @@ const Hero = () => {
       <div className="container-custom relative z-10">
         {/* Mobile-specific top padding to prevent jumping */}
         <div className="pt-20 md:pt-24 lg:pt-28"></div>
-        
+
         <div className="text-center max-w-5xl mx-auto">
           {/* Optimized Greeting */}
           <motion.div
@@ -230,72 +227,72 @@ const Hero = () => {
 
           {/* Optimized Main Title */}
           <motion.div
-  initial={{ opacity: 0, y: 40 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, type: "spring", stiffness: 100 }}
-  viewport={{ once: true }}
-  className="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16 mb-8 lg:mb-12"
->
-  {/* Left Side - Title */}
-  <div className="flex-1 text-center lg:text-left">
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ delay: 0.2 }}
-      className="mb-6"
-    >
-      <span className="inline-flex items-center gap-3 px-6 py-2.5 bg-white/5 backdrop-blur-md border border-white/10 rounded-full text-sm font-medium text-cyan-400 tracking-[3px]">
-        <Sparkles size={18} />
-        FUTURE IS NOW
-      </span>
-    </motion.div>
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, type: "spring", stiffness: 100 }}
+            viewport={{ once: true }}
+            className="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16 mb-8 lg:mb-12"
+          >
+            {/* Left Side - Title */}
+            <div className="flex-1 text-center lg:text-left">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ delay: 0.2 }}
+                className="mb-6"
+              >
+                <span className="inline-flex items-center gap-3 px-6 py-2.5 bg-white/5 backdrop-blur-md border border-white/10 rounded-full text-sm font-medium text-cyan-400 tracking-[3px]">
+                  <Sparkles size={18} />
+                  FUTURE IS NOW
+                </span>
+              </motion.div>
 
-    <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] xl:text-[6rem] font-black leading-[1.05] text-white">
-      <span className="block bg-gradient-to-r from-cyan-300 via-indigo-400 to-purple-400 bg-clip-text text-transparent">
-        FRONTEND
-      </span>
-      <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-rose-400 bg-clip-text text-transparent mt-1">
-        DEVELOPER
-      </span>
-    </h1>
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] xl:text-[6rem] font-black leading-[1.05] text-white">
+                <span className="block bg-gradient-to-r from-cyan-300 via-indigo-400 to-purple-400 bg-clip-text text-transparent">
+                  FRONTEND
+                </span>
+                <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-rose-400 bg-clip-text text-transparent mt-1">
+                  DEVELOPER
+                </span>
+              </h1>
 
-    <div className="h-1.5 w-20 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full mx-auto lg:mx-0 mt-6" />
-  </div>
+              <div className="h-1.5 w-20 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full mx-auto lg:mx-0 mt-6" />
+            </div>
 
-  {/* Right Side - Professional Image */}
-  <motion.div
-    initial={{ opacity: 0, scale: 0.85, rotate: -8 }}
-    whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
-    transition={{ duration: 0.7, delay: 0.3 }}
-    viewport={{ once: true }}
-    className="flex-shrink-0 relative group"
-  >
-    <div className="relative">
-      {/* Main Image */}
-      <div className="relative z-10 overflow-hidden rounded-3xl shadow-2xl">
-        <img
-          src="/farhan2.png"
-          alt="Farhan Sadik Turjo - Professional Frontend Developer"
-          className="w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[360px] md:h-[360px] lg:w-[400px] lg:h-[400px] object-cover transition-all duration-500 group-hover:scale-105"
-        />
-        
-        {/* Subtle Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-      </div>
+            {/* Right Side - Professional Image */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.85, rotate: -8 }}
+              whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+              transition={{ duration: 0.7, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="flex-shrink-0 relative group"
+            >
+              <div className="relative">
+                {/* Main Image */}
+                <div className="relative z-10 overflow-hidden rounded-3xl shadow-2xl">
+                  <img
+                    src="/farhan2.png"
+                    alt="Farhan Sadik Turjo - Professional Frontend Developer"
+                    className="w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[360px] md:h-[360px] lg:w-[400px] lg:h-[400px] object-cover transition-all duration-500 group-hover:scale-105"
+                  />
 
-      {/* Premium Glow Border */}
-      <div className="absolute -inset-4 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 rounded-[2rem] opacity-20 blur-2xl -z-10 group-hover:opacity-30 transition-opacity duration-500" />
-      
-      {/* Inner Border */}
-      <div className="absolute inset-0 border border-white/20 rounded-3xl pointer-events-none" />
-    </div>
+                  {/* Subtle Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                </div>
 
-    {/* Small floating badge */}
-    <div className="absolute -top-12 -right-4 bg-black/80 backdrop-blur-md text-xs font-mono px-4 py-2 rounded-2xl border border-cyan-400/30 shadow-xl">
-      <span className="text-emerald-400">●</span> Available for work
-    </div>
-  </motion.div>
-</motion.div>
+                {/* Premium Glow Border */}
+                <div className="absolute -inset-4 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 rounded-[2rem] opacity-20 blur-2xl -z-10 group-hover:opacity-30 transition-opacity duration-500" />
+
+                {/* Inner Border */}
+                <div className="absolute inset-0 border border-white/20 rounded-3xl pointer-events-none" />
+              </div>
+
+              {/* Small floating badge */}
+              <div className="absolute -top-12 -right-4 bg-black/80 backdrop-blur-md text-xs font-mono px-4 py-2 rounded-2xl border border-cyan-400/30 shadow-xl">
+                <span className="text-emerald-400">●</span> Available for work
+              </div>
+            </motion.div>
+          </motion.div>
 
           {/* Optimized Description */}
           <motion.p
@@ -306,7 +303,7 @@ const Hero = () => {
             className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 md:mb-10 max-w-3xl mx-auto leading-relaxed font-light px-4 sm:px-0"
           >
             <span className="text-cyan-400 font-medium">Crafting</span> exceptional digital experiences with{' '}
-            <span className="text-indigo-400 font-medium">cutting-edge technologies</span>. 
+            <span className="text-indigo-400 font-medium">cutting-edge technologies</span>.
             Specialized in <span className="text-purple-400 font-medium">React</span>,{' '}
             with experience in building <span className="text-cyan-400 font-medium">scalable web applications</span>.
           </motion.p>
@@ -332,7 +329,7 @@ const Hero = () => {
                 <Zap size={20} className="text-yellow-300" />
               </div>
             </motion.button>
-            
+
             <motion.button
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.97 }}
@@ -367,11 +364,11 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 initial={{ scale: 0, rotate: 180 }}
                 whileInView={{ scale: 1, rotate: 0 }}
-                transition={{ 
-                  duration: 0.3, 
-                  type: "spring", 
-                  stiffness: 200, 
-                  delay: index * 0.1 
+                transition={{
+                  duration: 0.3,
+                  type: "spring",
+                  stiffness: 200,
+                  delay: index * 0.1
                 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.15, y: -5, rotate: 5 }}
@@ -394,7 +391,7 @@ const Hero = () => {
           >
             <motion.button
               onClick={scrollToAbout}
-              animate={{ 
+              animate={{
                 y: [0, 8, 0],
                 scale: [1, 1.1, 1]
               }}
@@ -414,7 +411,7 @@ const Hero = () => {
       {isVisible && (
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-radial from-cyan-500/3 via-transparent to-transparent animate-pulse" />
-          <div className="absolute inset-0 bg-gradient-radial from-purple-500/3 via-transparent to-transparent animate-pulse" style={{animationDelay: '1s'}} />
+          <div className="absolute inset-0 bg-gradient-radial from-purple-500/3 via-transparent to-transparent animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
       )}
     </section>
