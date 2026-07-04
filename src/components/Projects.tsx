@@ -77,9 +77,8 @@ const Projects = () => {
     },
   ];
 
-  const displayedProjects = showAll
-    ? allProjects
-    : allProjects.filter(p => p.featured);
+  const displayedProjects = showAll ? allProjects : allProjects.slice(0, 2);
+
 
   const getIcon = (category: string) => {
     return category === 'Full-Stack' ? <Code size={18} /> : <Globe size={18} />;
@@ -163,17 +162,21 @@ const Projects = () => {
                     <a
                       href={project.liveUrl}
                       target="_blank"
-                      className="flex-1 bg-purple-600 text-white py-2 rounded text-center"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-2.5 rounded-xl text-sm font-semibold hover:from-purple-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-purple-500/30 hover:-translate-y-0.5"
                     >
-                      Live
+                      <ExternalLink size={15} />
+                      Live Demo
                     </a>
 
                     <a
                       href={project.githubUrl}
                       target="_blank"
-                      className="flex-1 border border-gray-600 text-white py-2 rounded text-center"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-2 bg-slate-800 border border-slate-600 text-gray-300 py-2.5 rounded-xl text-sm font-semibold hover:bg-slate-700 hover:border-purple-500/50 hover:text-white transition-all duration-300 hover:-translate-y-0.5"
                     >
-                      Code
+                      <Github size={15} />
+                      Source Code
                     </a>
 
                   </div>
@@ -189,7 +192,7 @@ const Projects = () => {
         <div className="text-center mt-10">
           <button
             onClick={() => setShowAll(!showAll)}
-            className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl"
+            className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl font-semibold hover:opacity-90 transition-opacity"
           >
             {showAll ? 'Show Less' : 'See All Projects'}
           </button>
