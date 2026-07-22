@@ -29,14 +29,14 @@ const Projects = ()=>{
         {
             id: 1,
             title: 'xAI',
-            description: 'A sleek, futuristic AI chat assistant with a high-tech neon interface, providing real-time AI responses and intelligence integration.',
+            description: 'Built an interactive AI product experience prototype as part of the RocoAI Frontend Developer assessment. Emphasized clean UI/UX, responsive layouts, advanced animations, and modern frontend architecture.',
             image: '/xai_preview.png',
             technologies: [
-                'React',
+                'React.js',
                 'Next.js',
                 'Tailwind CSS',
-                'xAI API',
-                'Framer Motion'
+                'Framer Motion',
+                'React Three Fiber'
             ],
             category: 'Full-Stack',
             liveUrl: 'https://xai-lemon.vercel.app/',
