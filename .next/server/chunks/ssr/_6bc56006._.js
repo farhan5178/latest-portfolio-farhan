@@ -27,25 +27,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 const Experience = ()=>{
     const experiences = [
         {
-            company: 'Rooya AI',
-            position: 'Machine Learning Intern',
-            duration: '2023',
+            company: 'Rooya Bangladesh',
+            position: 'Data Annotation Analyst',
+            duration: 'July 2026 – Present',
             location: 'Dhaka, Bangladesh',
-            type: 'Internship',
+            type: 'Full-time',
             achievements: [
-                'Assisted in machine learning model experimentation and testing',
-                'Worked with datasets for preprocessing and cleaning',
-                'Learned AI-based computer vision and data analysis concepts',
-                'Collaborated with team on AI research tasks',
-                'Improved understanding of Python and machine learning workflow'
+                'Annotate and review image and video data for AI/ML model training.',
+                'Ensure high-quality and accurate labeling following project guidelines.',
+                'Collaborate with cross-functional teams to meet quality and productivity targets.',
+                'Perform quality assurance (QA) and validate annotated datasets.',
+                'Contribute to improving annotation workflows and maintaining data consistency.'
             ],
             technologies: [
-                'Python',
-                'Pandas',
-                'NumPy',
-                'Scikit-learn'
+                'Data Annotation',
+                'Image Labeling',
+                'Quality Assurance',
+                'AI/ML Data'
             ],
-            logo: '🤖',
+            logo: '/rooya_logo.png',
             color: 'from-cyan-500 to-blue-500'
         }
     ];
@@ -82,14 +82,14 @@ const Experience = ()=>{
                 className: "absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,165,0,0.1),transparent_50%)]"
             }, void 0, false, {
                 fileName: "[project]/src/components/Experience.tsx",
-                lineNumber: 58,
+                lineNumber: 57,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 bg-[linear-gradient(45deg,transparent_30%,rgba(255,165,0,0.03)_50%,transparent_70%)]"
             }, void 0, false, {
                 fileName: "[project]/src/components/Experience.tsx",
-                lineNumber: 59,
+                lineNumber: 58,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -126,12 +126,12 @@ const Experience = ()=>{
                         }
                     }, i, false, {
                         fileName: "[project]/src/components/Experience.tsx",
-                        lineNumber: 64,
+                        lineNumber: 63,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/src/components/Experience.tsx",
-                lineNumber: 62,
+                lineNumber: 61,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -162,7 +162,7 @@ const Experience = ()=>{
                                         size: 32
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 93,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -174,13 +174,13 @@ const Experience = ()=>{
                                                 children: "Experience"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 96,
+                                                lineNumber: 95,
                                                 columnNumber: 20
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 94,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__["Brain"], {
@@ -188,13 +188,13 @@ const Experience = ()=>{
                                         size: 32
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 97,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Experience.tsx",
-                                lineNumber: 93,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -202,13 +202,13 @@ const Experience = ()=>{
                                 children: "My professional journey in web development, showcasing growth, achievements, and the technologies I've worked with across different companies."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Experience.tsx",
-                                lineNumber: 100,
+                                lineNumber: 99,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Experience.tsx",
-                        lineNumber: 86,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -222,7 +222,7 @@ const Experience = ()=>{
                                         size: 28
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 109,
+                                        lineNumber: 108,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -230,7 +230,7 @@ const Experience = ()=>{
                                         children: "Professional Experience"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 109,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
@@ -238,13 +238,13 @@ const Experience = ()=>{
                                         size: 28
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 112,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Experience.tsx",
-                                lineNumber: 108,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -276,27 +276,42 @@ const Experience = ()=>{
                                                             className: `absolute inset-0 bg-gradient-to-br ${exp.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                            lineNumber: 132,
+                                                            lineNumber: 131,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex items-start gap-6 mb-6",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: `relative w-20 h-20 bg-gradient-to-br ${exp.color} rounded-2xl flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-500 shadow-lg`,
+                                                                    className: "relative w-20 h-20 bg-white rounded-2xl flex items-center justify-center p-2 group-hover:scale-110 transition-transform duration-500 shadow-lg overflow-hidden",
                                                                     children: [
-                                                                        exp.logo,
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "absolute inset-0 bg-white/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                                                        exp.logo.startsWith('/') ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                                            src: exp.logo,
+                                                                            alt: exp.company,
+                                                                            className: "w-full h-full object-contain"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                                            lineNumber: 137,
+                                                                            lineNumber: 136,
+                                                                            columnNumber: 27
+                                                                        }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "text-4xl",
+                                                                            children: exp.logo
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/Experience.tsx",
+                                                                            lineNumber: 138,
+                                                                            columnNumber: 27
+                                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                            className: "absolute inset-0 bg-white/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/Experience.tsx",
+                                                                            lineNumber: 140,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                    lineNumber: 135,
+                                                                    lineNumber: 134,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -307,7 +322,7 @@ const Experience = ()=>{
                                                                             children: exp.position
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                                            lineNumber: 140,
+                                                                            lineNumber: 143,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -321,14 +336,14 @@ const Experience = ()=>{
                                                                                             className: "text-orange-400"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                                                            lineNumber: 145,
+                                                                                            lineNumber: 148,
                                                                                             columnNumber: 29
                                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                                         exp.company
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                                    lineNumber: 144,
+                                                                                    lineNumber: 147,
                                                                                     columnNumber: 27
                                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -339,14 +354,14 @@ const Experience = ()=>{
                                                                                             className: "text-orange-400"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                                                            lineNumber: 149,
+                                                                                            lineNumber: 152,
                                                                                             columnNumber: 29
                                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                                         exp.duration
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                                    lineNumber: 148,
+                                                                                    lineNumber: 151,
                                                                                     columnNumber: 27
                                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -357,20 +372,20 @@ const Experience = ()=>{
                                                                                             className: "text-orange-400"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                                                            lineNumber: 153,
+                                                                                            lineNumber: 156,
                                                                                             columnNumber: 29
                                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                                         exp.location
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                                    lineNumber: 152,
+                                                                                    lineNumber: 155,
                                                                                     columnNumber: 27
                                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                                            lineNumber: 143,
+                                                                            lineNumber: 146,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -378,19 +393,19 @@ const Experience = ()=>{
                                                                             children: exp.type
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                                            lineNumber: 157,
+                                                                            lineNumber: 160,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                    lineNumber: 139,
+                                                                    lineNumber: 142,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                            lineNumber: 134,
+                                                            lineNumber: 133,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -398,10 +413,10 @@ const Experience = ()=>{
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                                                     className: "font-bold text-white mb-4 text-lg",
-                                                                    children: "Key Achievements:"
+                                                                    children: "Key Responsibilities:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                    lineNumber: 164,
+                                                                    lineNumber: 167,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -413,35 +428,35 @@ const Experience = ()=>{
                                                                                     className: "w-2 h-2 bg-gradient-to-r from-orange-400 to-red-400 rounded-full mt-2 flex-shrink-0 animate-pulse"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                                    lineNumber: 170,
+                                                                                    lineNumber: 173,
                                                                                     columnNumber: 29
                                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                                 achievement
                                                                             ]
                                                                         }, idx, true, {
                                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                                            lineNumber: 169,
+                                                                            lineNumber: 172,
                                                                             columnNumber: 27
                                                                         }, ("TURBOPACK compile-time value", void 0)))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                    lineNumber: 167,
+                                                                    lineNumber: 170,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                            lineNumber: 163,
+                                                            lineNumber: 166,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                                                     className: "font-bold text-white mb-4 text-lg",
-                                                                    children: "Technologies Used:"
+                                                                    children: "Areas of Expertise:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                    lineNumber: 178,
+                                                                    lineNumber: 181,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -451,36 +466,36 @@ const Experience = ()=>{
                                                                             children: tech
                                                                         }, idx, false, {
                                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                                            lineNumber: 183,
+                                                                            lineNumber: 186,
                                                                             columnNumber: 27
                                                                         }, ("TURBOPACK compile-time value", void 0)))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                                    lineNumber: 181,
+                                                                    lineNumber: 184,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                            lineNumber: 177,
+                                                            lineNumber: 180,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: `absolute inset-0 rounded-3xl border border-transparent bg-gradient-to-r ${exp.color} opacity-0 group-hover:opacity-20 transition-opacity duration-500`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Experience.tsx",
-                                                            lineNumber: 194,
+                                                            lineNumber: 197,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Experience.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 129,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 128,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -490,37 +505,37 @@ const Experience = ()=>{
                                                         className: "w-6 h-6 bg-gradient-to-r from-orange-400 to-red-400 rounded-full shadow-lg animate-pulse"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 200,
+                                                        lineNumber: 203,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     index < experiences.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "w-1 h-32 bg-gradient-to-b from-orange-400/50 to-red-400/50 rounded-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 202,
+                                                        lineNumber: 205,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 199,
+                                                lineNumber: 202,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, `${exp.company}-${exp.position}`, true, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 117,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Experience.tsx",
-                                lineNumber: 116,
+                                lineNumber: 115,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Experience.tsx",
-                        lineNumber: 107,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -534,7 +549,7 @@ const Experience = ()=>{
                                         size: 28
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 213,
+                                        lineNumber: 216,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -542,7 +557,7 @@ const Experience = ()=>{
                                         children: "Education & Training"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 214,
+                                        lineNumber: 217,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$atom$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Atom$3e$__["Atom"], {
@@ -550,13 +565,13 @@ const Experience = ()=>{
                                         size: 28
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 217,
+                                        lineNumber: 220,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Experience.tsx",
-                                lineNumber: 212,
+                                lineNumber: 215,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -583,7 +598,7 @@ const Experience = ()=>{
                                                 className: `absolute inset-0 bg-gradient-to-br ${edu.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 231,
+                                                lineNumber: 234,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -597,13 +612,13 @@ const Experience = ()=>{
                                                                 className: "absolute inset-0 bg-white/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                                lineNumber: 236,
+                                                                lineNumber: 239,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 234,
+                                                        lineNumber: 237,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -611,7 +626,7 @@ const Experience = ()=>{
                                                         children: edu.course
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 238,
+                                                        lineNumber: 241,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -619,7 +634,7 @@ const Experience = ()=>{
                                                         children: edu.institution
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 241,
+                                                        lineNumber: 244,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -627,7 +642,7 @@ const Experience = ()=>{
                                                         children: edu.duration
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 244,
+                                                        lineNumber: 247,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -635,37 +650,37 @@ const Experience = ()=>{
                                                         children: edu.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 247,
+                                                        lineNumber: 250,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 233,
+                                                lineNumber: 236,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: `absolute inset-0 rounded-3xl border border-transparent bg-gradient-to-r ${edu.color} opacity-0 group-hover:opacity-20 transition-opacity duration-500`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 253,
+                                                lineNumber: 256,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, `${edu.institution}-${edu.course}`, true, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 222,
+                                        lineNumber: 225,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Experience.tsx",
-                                lineNumber: 220,
+                                lineNumber: 223,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Experience.tsx",
-                        lineNumber: 211,
+                        lineNumber: 214,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -689,14 +704,14 @@ const Experience = ()=>{
                                 className: "absolute inset-0 bg-gradient-to-r from-orange-500/5 to-red-500/5 animate-pulse"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Experience.tsx",
-                                lineNumber: 268,
+                                lineNumber: 271,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,165,0,0.1),transparent_70%)]"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Experience.tsx",
-                                lineNumber: 269,
+                                lineNumber: 272,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -710,7 +725,7 @@ const Experience = ()=>{
                                                 size: 32
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 273,
+                                                lineNumber: 276,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -722,13 +737,13 @@ const Experience = ()=>{
                                                         children: "Growth"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 275,
+                                                        lineNumber: 278,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 274,
+                                                lineNumber: 277,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
@@ -736,13 +751,13 @@ const Experience = ()=>{
                                                 size: 32
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 277,
+                                                lineNumber: 280,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 272,
+                                        lineNumber: 275,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -750,7 +765,7 @@ const Experience = ()=>{
                                         children: "Throughout my journey, I've consistently grown both technically and professionally, taking on increasing responsibilities and expanding my skill set."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 279,
+                                        lineNumber: 282,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -800,20 +815,20 @@ const Experience = ()=>{
                                                                 className: "text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                                lineNumber: 317,
+                                                                lineNumber: 320,
                                                                 columnNumber: 9
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "absolute inset-0 bg-white/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                                lineNumber: 318,
+                                                                lineNumber: 321,
                                                                 columnNumber: 9
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 316,
+                                                        lineNumber: 319,
                                                         columnNumber: 7
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -821,7 +836,7 @@ const Experience = ()=>{
                                                         children: highlight.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 320,
+                                                        lineNumber: 323,
                                                         columnNumber: 7
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -829,42 +844,42 @@ const Experience = ()=>{
                                                         children: highlight.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
-                                                        lineNumber: 323,
+                                                        lineNumber: 326,
                                                         columnNumber: 7
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, highlight.title, true, {
                                                 fileName: "[project]/src/components/Experience.tsx",
-                                                lineNumber: 308,
+                                                lineNumber: 311,
                                                 columnNumber: 5
                                             }, ("TURBOPACK compile-time value", void 0)))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Experience.tsx",
-                                        lineNumber: 284,
+                                        lineNumber: 287,
                                         columnNumber: 12
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Experience.tsx",
-                                lineNumber: 271,
+                                lineNumber: 274,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Experience.tsx",
-                        lineNumber: 260,
+                        lineNumber: 263,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Experience.tsx",
-                lineNumber: 85,
+                lineNumber: 84,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Experience.tsx",
-        lineNumber: 56,
+        lineNumber: 55,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

@@ -5,24 +5,23 @@ import { Calendar, MapPin, Building, Award, Users, TrendingUp, Rocket, Brain, Cp
 
 const Experience = () => {
   const experiences = [
-   {
-  company: 'Rooya AI',
-  position: 'Machine Learning Intern',
-  duration: '2023',
-  location: 'Dhaka, Bangladesh',
-  type: 'Internship',
-  achievements: [
-    'Assisted in machine learning model experimentation and testing',
-    'Worked with datasets for preprocessing and cleaning',
-    'Learned AI-based computer vision and data analysis concepts',
-    'Collaborated with team on AI research tasks',
-    'Improved understanding of Python and machine learning workflow'
-  ],
-  technologies: ['Python', 'Pandas', 'NumPy', 'Scikit-learn'],
-  logo: '🤖',
-  color: 'from-cyan-500 to-blue-500'
-}
-   
+    {
+      company: 'Rooya Bangladesh',
+      position: 'Data Annotation Analyst',
+      duration: 'July 2026 – Present',
+      location: 'Dhaka, Bangladesh',
+      type: 'Full-time',
+      achievements: [
+        'Annotate and review image and video data for AI/ML model training.',
+        'Ensure high-quality and accurate labeling following project guidelines.',
+        'Collaborate with cross-functional teams to meet quality and productivity targets.',
+        'Perform quality assurance (QA) and validate annotated datasets.',
+        'Contribute to improving annotation workflows and maintaining data consistency.'
+      ],
+      technologies: ['Data Annotation', 'Image Labeling', 'Quality Assurance', 'AI/ML Data'],
+      logo: '/rooya_logo.png',
+      color: 'from-cyan-500 to-blue-500'
+    }
   ];
 
  const education = [
@@ -132,9 +131,13 @@ const Experience = () => {
                     <div className={`absolute inset-0 bg-gradient-to-br ${exp.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`} />
                     
                     <div className="flex items-start gap-6 mb-6">
-                      <div className={`relative w-20 h-20 bg-gradient-to-br ${exp.color} rounded-2xl flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-500 shadow-lg`}>
-                        {exp.logo}
-                        <div className="absolute inset-0 bg-white/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                      <div className="relative w-20 h-20 bg-white rounded-2xl flex items-center justify-center p-2 group-hover:scale-110 transition-transform duration-500 shadow-lg overflow-hidden">
+                        {exp.logo.startsWith('/') ? (
+                          <img src={exp.logo} alt={exp.company} className="w-full h-full object-contain" />
+                        ) : (
+                          <span className="text-4xl">{exp.logo}</span>
+                        )}
+                        <div className="absolute inset-0 bg-white/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                       </div>
                       <div className="flex-1">
                         <h4 className="text-2xl font-bold text-white mb-3 group-hover:text-orange-400 transition-colors duration-300">
@@ -162,7 +165,7 @@ const Experience = () => {
 
                     <div className="mb-6">
                       <h5 className="font-bold text-white mb-4 text-lg">
-                        Key Achievements:
+                        Key Responsibilities:
                       </h5>
                       <ul className="space-y-3">
                         {exp.achievements.map((achievement, idx) => (
@@ -176,7 +179,7 @@ const Experience = () => {
 
                     <div>
                       <h5 className="font-bold text-white mb-4 text-lg">
-                        Technologies Used:
+                        Areas of Expertise:
                       </h5>
                       <div className="flex flex-wrap gap-3">
                         {exp.technologies.map((tech, idx) => (
@@ -284,27 +287,27 @@ const Experience = () => {
            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
   {
  
- [
-  {
-    icon: TrendingUp,
-    title: 'Continuous Learning',
-    description: 'Improving skills in React, Node.js, and Machine Learning through real projects and practice.',
-    color: 'from-orange-400 to-red-400'
-  },
-  {
-    icon: Users,
-    title: 'Hands-on Projects',
-    description: 'Built personal and academic projects including web apps and ML experiments.',
-    color: 'from-red-400 to-pink-400'
-  },
-  {
-    icon: Award,
-    title: 'Technical Growth',
-    description: 'Developing strong understanding of full-stack development and AI fundamentals.',
-    color: 'from-pink-400 to-purple-400'
-  }
-]
-.map((highlight, index) => (
+  [
+   {
+     icon: TrendingUp,
+     title: 'Continuous Learning',
+     description: 'Improving skills in React, Node.js, and Machine Learning through real projects and practice.',
+     color: 'from-orange-400 to-red-400'
+   },
+   {
+     icon: Users,
+     title: 'Hands-on Projects',
+     description: 'Built personal and academic projects including web apps and ML experiments.',
+     color: 'from-red-400 to-pink-400'
+   },
+   {
+     icon: Award,
+     title: 'Technical Growth',
+     description: 'Developing strong understanding of full-stack development and AI fundamentals.',
+     color: 'from-pink-400 to-purple-400'
+   }
+ ]
+ .map((highlight, index) => (
     <motion.div
       key={highlight.title}
       initial={{ opacity: 0, scale: 0.8 }}
