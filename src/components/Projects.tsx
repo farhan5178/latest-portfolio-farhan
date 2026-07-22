@@ -11,6 +11,17 @@ const Projects = () => {
   const allProjects = [
     {
       id: 1,
+      title: 'xAI',
+      description: 'A sleek, futuristic AI chat assistant with a high-tech neon interface, providing real-time AI responses and intelligence integration.',
+      image: '/xai_preview.png',
+      technologies: ['React', 'Next.js', 'Tailwind CSS', 'xAI API', 'Framer Motion'],
+      category: 'Full-Stack',
+      liveUrl: 'https://xai-lemon.vercel.app/',
+      githubUrl: 'https://github.com/farhan5178/xai',
+      featured: true,
+    },
+    {
+      id: 2,
       title: 'SkillSwap BD',
       description: 'A student skill exchange platform where students can offer and learn skills from each other. Features user authentication, skill listings, and booking system.',
       image: '/skillswap_preview.png',
@@ -21,7 +32,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 2,
+      id: 3,
       title: 'BookVibe',
       description: 'A modern book discovery and review platform. Browse books by category, read reviews, and manage your personal reading list with a clean UI.',
       image: '/bookvibe_preview.png',
@@ -32,7 +43,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 3,
+      id: 4,
       title: 'DeveloperLook',
       description: 'An interview assignment project showcasing modern frontend development skills with clean UI components and responsive design.',
       image: '/developerlook_preview.png',
@@ -43,7 +54,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 4,
+      id: 5,
       title: 'MovieVibe',
       description: 'A movie browsing platform with modern UI. Discover trending movies, search by genre, and explore detailed movie information.',
       image: '/movievibe_preview.png',
@@ -54,7 +65,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 5,
+      id: 6,
       title: 'QurbaniHat',
       description: 'An online platform for Qurbani (Eid-ul-Adha) cattle marketplace. Browse, filter and purchase livestock with a smooth user experience.',
       image: '/qurbanihat_preview.png',
@@ -65,7 +76,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 6,
+      id: 7,
       title: 'Sehrish AI',
       description: 'An AI-powered web application with an intelligent interface. Features modern design and seamless AI integration for a smart user experience.',
       image: '/sehrishai_preview.png',
