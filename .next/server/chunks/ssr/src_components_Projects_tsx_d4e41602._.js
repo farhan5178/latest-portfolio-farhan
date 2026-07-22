@@ -36,7 +36,7 @@ const Projects = ()=>{
                 'Framer Motion',
                 'React Three Fiber'
             ],
-            category: 'Full-Stack',
+            category: 'Frontend',
             liveUrl: 'https://xai-lemon.vercel.app/',
             githubUrl: 'https://github.com/farhan5178/xai',
             featured: true

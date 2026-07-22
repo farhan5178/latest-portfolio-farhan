@@ -15,7 +15,7 @@ const Projects = () => {
       description: 'Built an interactive AI product experience prototype as part of the RocoAI Frontend Developer assessment. Emphasized clean UI/UX, responsive layouts, advanced animations, and modern frontend architecture.',
       image: '/xai_preview.png',
       technologies: ['React.js', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'React Three Fiber'],
-      category: 'Full-Stack',
+      category: 'Frontend',
       liveUrl: 'https://xai-lemon.vercel.app/',
       githubUrl: 'https://github.com/farhan5178/xai',
       featured: true,
